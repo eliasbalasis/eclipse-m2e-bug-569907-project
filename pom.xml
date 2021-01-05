@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.myorganization.mybusiness</groupId>
+		<artifactId>myparent.spring-boot-2</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>myproject</artifactId>
+
+	<packaging>pom</packaging>
+
+	<properties>
+		<maven.deploy.skip>true</maven.deploy.skip>
+	</properties>
+
+	<scm>
+		<connection>scm:git:http://myorganization.com/bitbucket/scm/myorganization/myproject.git</connection>
+		<developerConnection>scm:git:http://myorganization.com/bitbucket/scm/myorganization/myproject.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+
+	<modules>
+		<module>modules/application</module>
+	</modules>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.myorganization.mybusiness</groupId>
+			<artifactId>mytools.springframework</artifactId>
+		</dependency>
+	</dependencies>
+
+</project>
