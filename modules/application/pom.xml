@@ -18,7 +18,8 @@
 	<properties>
 		<maven.deploy.skip>true</maven.deploy.skip>
 
-		<properties.private.myProperty>${properties.myparent.myInheritedProperty}</properties.private.myProperty>
+		<properties.private.myProperty1>${properties.myparent.myInheritedProperty}</properties.private.myProperty1>
+		<properties.private.myProperty2>${properties.myapplication.myInheritedProperty}</properties.private.myProperty2>
 	</properties>
 
 </project>
