@@ -16,6 +16,8 @@
 
 	<properties>
 		<maven.deploy.skip>true</maven.deploy.skip>
+
+		<properties.myparent.myInheritedProperty>value</properties.myparent.myInheritedProperty>
 	</properties>
 
 	<scm>
